@@ -50,7 +50,7 @@ ul li {
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1800px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -108,7 +108,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
+    max-width: 1800px;
     margin: 0 auto;
     width:100%;
     padding: 12px 0px;
@@ -140,8 +140,8 @@ ul li {
 
 .hero-image{
     object-fit: cover;
-    max-width: 640px;
-    max-height: 800px;
+    max-width: 1200px;
+    max-height: 960px;
 }
 
 
@@ -164,9 +164,9 @@ ul li {
 .usp{
     display: flex;
     flex-direction:column;
-    gap: 16px;
+    gap: space-between;
     align-items: center;
-    max-width: 200px;
+    max-width: 280px;
     text-align: center;
 }
 
@@ -223,7 +223,7 @@ ul li {
     color: white;
     padding: 40px 48px;
     border-radius: 16px;
-    width: 100%;
+    width: 100%;gi
 }
 
 .sign-up-description{
