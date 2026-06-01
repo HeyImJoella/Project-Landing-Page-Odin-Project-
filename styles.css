@@ -1,0 +1,299 @@
+*{
+    font-family: 'Poppins','Arial', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1.2rem;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.2rem;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 1.2rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.4rem;
+    line-height: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    pointer-events: auto;
+}
+
+ul{
+    display: flex;
+    gap: 12px;
+}
+
+ul li {
+    list-style: none;
+    padding: 12px 8px;
+    font-weight: 600;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.emphasis{
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    color: #3076e7;
+}
+
+
+/* Button styles */
+#primary-btn{
+    background-color: #3076e7;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: start;
+    min-width: 240px;
+}
+
+#primary-btn:hover{
+    background-color: #2563EB ;
+}
+
+#secondary-btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: start;
+    min-width: 240px;
+}
+
+#secondary-btn:hover{
+    background-color: white;
+    color:#3882F6;
+}
+
+/* Header section and navbar */
+.header-section{
+    background-color:#1F2937;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    width:100%;
+    padding: 12px 0px;
+    background-color:#1F2937;
+}
+
+.navbar-wrapper{
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 48px 80px 48px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+    gap:120px;
+}
+
+.hero-image{
+    object-fit: cover;
+    max-width: 640px;
+    max-height: 800px;
+}
+
+
+
+
+/* USP's section */
+.info-content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    padding: 160px 0px;
+}
+
+.usp-list{
+    display: flex;
+    gap: 24px;
+}
+
+.usp{
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+/* Testimonial section */
+#testimonials{
+    background-color: #F3F4F6;
+}
+
+.testimonial{
+    display:flex;
+    flex-direction: column;
+    padding: 48px;
+    align-items: center;
+    height:50vh;
+}
+
+.testimonial-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 824px;
+}
+
+.testimonial-text{
+    font-style: italic;
+    margin-bottom: 24px;
+    text-decoration: emphasis;
+    font-size: 32px;
+    line-height: 2.4rem;
+}
+
+.testimonial-author{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2rem;
+    align-self: flex-end;
+}
+
+
+/* Sign up section */
+#sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.sign-up-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 48px;
+    border-radius: 16px;
+    width: 800px;
+}
+
+.sign-up-description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+}
+
+.sign-up-button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content{
+        padding: 80px 24px 80px 24px;
+    }
+
+    .hero-image{
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .info-content{
+        padding: 80px 24px;
+    }
+
+    .usp-list{
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .testimonial-text{
+        font-size: 24px;
+        line-height: 1.8rem;
+    }
+
+    .sign-up-content{
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 24px;
+    }
+}
