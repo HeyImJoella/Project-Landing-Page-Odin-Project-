@@ -32,6 +32,7 @@ p{
 }
 
 a {
+    font-size:18px;
     color: white;
     text-decoration: none;
     pointer-events: auto;
@@ -168,8 +169,9 @@ ul li {
     align-items: center;
     text-align: center;
     background-color: #F3F4F6;
-    padding: 80px 24px;
+    padding: 80px 48px;
     border-radius: 16px;
+    gap: 24px;
 }
 
 
